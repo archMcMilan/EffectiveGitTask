@@ -7,7 +7,6 @@ public class Main {
         System.out.println("Second commit");
         SomeRunner someRunner = new SomeRunner();
         someRunner.run();
-        long id = someRunner.generateIdByName("c");
-        System.out.println(id);
+        someRunner.generateIdByName("c");
     }
 }
